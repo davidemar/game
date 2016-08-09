@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3567F9D1D0865D90083494A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3567F9C1D0865D90083494A /* AppDelegate.swift */; };
+		F3567F9F1D0865D90083494A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3567F9E1D0865D90083494A /* ViewController.swift */; };
+		F3567FA21D0865D90083494A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3567FA01D0865D90083494A /* Main.storyboard */; };
+		F3567FA41D0865D90083494A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3567FA31D0865D90083494A /* Assets.xcassets */; };
+		F3567FA71D0865D90083494A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3567FA51D0865D90083494A /* LaunchScreen.storyboard */; };
+		F3567FAF1D0867650083494A /* Reto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3567FAE1D0867650083494A /* Reto.swift */; };
+		F3567FB11D08678A0083494A /* RetosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3567FB01D08678A0083494A /* RetosModel.swift */; };
+		F3567FB31D0867930083494A /* RetosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3567FB21D0867930083494A /* RetosViewModel.swift */; };
+		F3567FB71D0876970083494A /* Carta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3567FB61D0876970083494A /* Carta.swift */; };
+		F3567FB91D089AAF0083494A /* RetoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3567FB81D089AAF0083494A /* RetoViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3567F991D0865D80083494A /* Ponte Pedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ponte Pedo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3567F9C1D0865D90083494A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3567F9E1D0865D90083494A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3567FA11D0865D90083494A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3567FA31D0865D90083494A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3567FA61D0865D90083494A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3567FA81D0865D90083494A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3567FAE1D0867650083494A /* Reto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reto.swift; sourceTree = "<group>"; };
+		F3567FB01D08678A0083494A /* RetosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetosModel.swift; sourceTree = "<group>"; };
+		F3567FB21D0867930083494A /* RetosViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetosViewModel.swift; sourceTree = "<group>"; };
+		F3567FB61D0876970083494A /* Carta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carta.swift; sourceTree = "<group>"; };
+		F3567FB81D089AAF0083494A /* RetoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetoViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3567F961D0865D80083494A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3567F901D0865D80083494A = {
+			isa = PBXGroup;
+			children = (
+				F3567F9B1D0865D90083494A /* Ponte Pedo */,
+				F3567F9A1D0865D80083494A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3567F9A1D0865D80083494A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3567F991D0865D80083494A /* Ponte Pedo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3567F9B1D0865D90083494A /* Ponte Pedo */ = {
+			isa = PBXGroup;
+			children = (
+				F3567F9C1D0865D90083494A /* AppDelegate.swift */,
+				F3567F9E1D0865D90083494A /* ViewController.swift */,
+				F3567FA01D0865D90083494A /* Main.storyboard */,
+				F3567FB61D0876970083494A /* Carta.swift */,
+				F3567FAE1D0867650083494A /* Reto.swift */,
+				F3567FB81D089AAF0083494A /* RetoViewModel.swift */,
+				F3567FB21D0867930083494A /* RetosViewModel.swift */,
+				F3567FB01D08678A0083494A /* RetosModel.swift */,
+				F3567FA31D0865D90083494A /* Assets.xcassets */,
+				F3567FA51D0865D90083494A /* LaunchScreen.storyboard */,
+				F3567FA81D0865D90083494A /* Info.plist */,
+			);
+			path = "Ponte Pedo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3567F981D0865D80083494A /* Ponte Pedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3567FAB1D0865D90083494A /* Build configuration list for PBXNativeTarget "Ponte Pedo" */;
+			buildPhases = (
+				F3567F951D0865D80083494A /* Sources */,
+				F3567F961D0865D80083494A /* Frameworks */,
+				F3567F971D0865D80083494A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ponte Pedo";
+			productName = "Ponte Pedo";
+			productReference = F3567F991D0865D80083494A /* Ponte Pedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3567F911D0865D80083494A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "David y Marilyn";
+				TargetAttributes = {
+					F3567F981D0865D80083494A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8MS87H3FQ4;
+					};
+				};
+			};
+			buildConfigurationList = F3567F941D0865D80083494A /* Build configuration list for PBXProject "Ponte Pedo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3567F901D0865D80083494A;
+			productRefGroup = F3567F9A1D0865D80083494A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3567F981D0865D80083494A /* Ponte Pedo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3567F971D0865D80083494A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3567FA71D0865D90083494A /* LaunchScreen.storyboard in Resources */,
+				F3567FA41D0865D90083494A /* Assets.xcassets in Resources */,
+				F3567FA21D0865D90083494A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3567F951D0865D80083494A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3567FAF1D0867650083494A /* Reto.swift in Sources */,
+				F3567FB11D08678A0083494A /* RetosModel.swift in Sources */,
+				F3567F9F1D0865D90083494A /* ViewController.swift in Sources */,
+				F3567F9D1D0865D90083494A /* AppDelegate.swift in Sources */,
+				F3567FB91D089AAF0083494A /* RetoViewModel.swift in Sources */,
+				F3567FB31D0867930083494A /* RetosViewModel.swift in Sources */,
+				F3567FB71D0876970083494A /* Carta.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3567FA01D0865D90083494A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3567FA11D0865D90083494A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3567FA51D0865D90083494A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3567FA61D0865D90083494A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3567FA91D0865D90083494A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3567FAA1D0865D90083494A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3567FAC1D0865D90083494A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ponte Pedo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidYMarilyn.Ponte-Pedo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3567FAD1D0865D90083494A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ponte Pedo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidYMarilyn.Ponte-Pedo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3567F941D0865D80083494A /* Build configuration list for PBXProject "Ponte Pedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3567FA91D0865D90083494A /* Debug */,
+				F3567FAA1D0865D90083494A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3567FAB1D0865D90083494A /* Build configuration list for PBXNativeTarget "Ponte Pedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3567FAC1D0865D90083494A /* Debug */,
+				F3567FAD1D0865D90083494A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3567F911D0865D80083494A /* Project object */;
+}
